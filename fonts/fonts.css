@@ -1,0 +1,24 @@
+@import url("./inter/Inter-Black.woff2");
+@import url("./inter/Inter-Regular.woff2");
+
+/*
+* INTER BOLD - 900
+*/
+@font-face {
+  src: url("./inter/Inter-Black.woff2") format("woff2");
+  font-family: "Inter-Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+/*
+* INTER REGULAR - 400
+*/
+@font-face {
+  src: url("./inter/Inter-Regular.woff2") format("woff2");
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
