@@ -28,3 +28,17 @@
 .article__image {
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .article__title {
+    font-size: 75px;
+  }
+
+  .article__sub-title {
+    font-size: 30px;
+  }
+
+  .article__image {
+    width: 100%;
+  }
+}
