@@ -1,5 +1,5 @@
 .details {
-  margin: 92px 302px 92px 10%;
+  margin: 0px 302px 92px 10%;
   display: flex;
   flex-direction: column;
 }
@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 768px) {
   .details {
-    margin: 90px 24px 88px 24px;
+    margin: 0px 24px 88px 24px;
     width: 95%;
   }
 
@@ -45,5 +45,21 @@
 
   .details__quote-author {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .details {
+    margin: 0px 24px 64px 24px;
+    width: 85%;
+  }
+
+  .details__title {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .details__quote-author {
+    margin-top: 10px;
   }
 }
