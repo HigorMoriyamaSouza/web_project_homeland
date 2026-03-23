@@ -1,11 +1,11 @@
-@import url("./inter/Inter-Black.woff2");
-@import url("./inter/Inter-Regular.woff2");
+@import url("../fonts/inter/Inter-Black.woff2");
+@import url("../fonts/inter/Inter-Regular.woff2");
 
 /*
 * INTER BOLD - 900
 */
 @font-face {
-  src: url("./inter/Inter-Black.woff2") format("woff2");
+  src: url("../fonts/inter/Inter-Black.woff2") format("woff2");
   font-family: "Inter-Bold";
   font-style: normal;
   font-weight: 900;
@@ -16,7 +16,7 @@
 * INTER REGULAR - 400
 */
 @font-face {
-  src: url("./inter/Inter-Regular.woff2") format("woff2");
+  src: url("../fonts/inter/Inter-Regular.woff2") format("woff2");
   font-family: "Inter-Regular";
   font-style: normal;
   font-weight: 400;
