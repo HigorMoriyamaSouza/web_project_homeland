@@ -14,13 +14,13 @@
 
 .article__title {
   text-align: center;
-  font-family: "Inter-Bold";
+  font-family: "Inter-Bold", sans-serif;
   font-size: 96px;
 }
 
 .article__sub-title {
   text-align: center;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", sans-serif;
   font-size: 30px;
   width: 50%;
 }
