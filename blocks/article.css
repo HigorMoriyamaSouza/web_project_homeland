@@ -27,6 +27,7 @@
 
 .article__image {
   width: 80%;
+  box-shadow: #000000 10px 10px 25px 0;
 }
 
 @media screen and (max-width: 768px) {
