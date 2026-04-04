@@ -1,6 +1,7 @@
 .footer {
   padding-top: 90px;
-  width: 100%;
+  max-width: 90%;
+  justify-self: center;
   display: flex;
   justify-content: center;
 }
