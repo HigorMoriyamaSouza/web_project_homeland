@@ -42,7 +42,7 @@ a {
   opacity: 1;
 }
 
-.places__button_mobile_disabled,
+.places__button,
 .places__button_mobile_enabled {
   margin-top: 48px;
   max-width: 80%;
@@ -58,7 +58,7 @@ a {
   font-size: 18px;
 }
 
-.places__button_mobile_disabled:hover,
+.places__button:hover,
 .places__button_mobile_enabled:hover {
   background: linear-gradient(#003a7b);
 }
@@ -106,7 +106,7 @@ span {
     font-size: 42px;
   }
 
-  .places__button_mobile_disabled {
+  .places__button {
     max-width: 100%;
   }
 
@@ -130,7 +130,7 @@ span {
   .places__content {
     padding: 0px 16px 0px 16px;
   }
-  .places__button_mobile_disabled {
+  .places__button {
     display: none;
   }
 
