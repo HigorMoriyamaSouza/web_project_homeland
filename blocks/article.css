@@ -1,6 +1,5 @@
 .article {
-  margin-top: 90px;
-  margin-bottom: 92px;
+  padding-bottom: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,21 +7,19 @@
 }
 
 .article__text {
-  color: #ffffff;
   margin: 0;
+  color: #ffffff;
+  text-align: center;
 }
 
 .article__title {
-  text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 96px;
 }
 
 .article__sub-title {
-  text-align: center;
   font-family: "Inter-Regular", sans-serif;
   font-size: 30px;
-  width: 50%;
 }
 
 .article__image {
@@ -31,18 +28,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .article {
-    margin-bottom: 90px;
-  }
-
   .article__title {
     font-size: 75px;
     width: 95%;
   }
 
   .article__sub-title {
-    font-size: 30px;
     width: 80%;
+    font-size: 30px;
   }
 
   .article__image {
@@ -52,7 +45,7 @@
 
 @media screen and (max-width: 320px) {
   .article {
-    margin-bottom: 64px;
+    padding-bottom: 64px;
   }
 
   .article__title {

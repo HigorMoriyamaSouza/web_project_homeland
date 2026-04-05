@@ -1,13 +1,13 @@
 .footer {
   padding-top: 90px;
   max-width: 90%;
-  justify-self: center;
   display: flex;
   justify-content: center;
+  justify-self: center;
 }
 
 .footer__copyright {
   color: #ffffffff;
-  font-family: "Inter";
-  font-size: "16px";
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
 }
